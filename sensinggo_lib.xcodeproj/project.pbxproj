@@ -7,19 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		895DA21925A1635D004C5FF4 /* FileMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895DA21825A1635D004C5FF4 /* FileMaker.swift */; };
+		895DA21C25A16388004C5FF4 /* SendData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895DA21B25A16388004C5FF4 /* SendData.swift */; };
 		89AA9D6725723D690080DB19 /* sensinggo_lib.h in Headers */ = {isa = PBXBuildFile; fileRef = 89AA9D6525723D690080DB19 /* sensinggo_lib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		89AA9D7E25723E8B0080DB19 /* t.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AA9D7D25723E8B0080DB19 /* t.swift */; };
 		89AA9D85257240550080DB19 /* SensorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AA9D84257240550080DB19 /* SensorInfo.swift */; };
 		89AA9D8C25724CB60080DB19 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AA9D8B25724CB60080DB19 /* Location.swift */; };
+		89AA9D9225727A7D0080DB19 /* PhoneInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AA9D9125727A7D0080DB19 /* PhoneInfo.swift */; };
+		89AA9D9525727AFA0080DB19 /* NetworkState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AA9D9425727AFA0080DB19 /* NetworkState.swift */; };
+		89AA9D982572801B0080DB19 /* CellularInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AA9D972572801B0080DB19 /* CellularInfo.swift */; };
+		89AA9D9B2572811F0080DB19 /* WiFiInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AA9D9A2572811F0080DB19 /* WiFiInfo.swift */; };
+		DE2CB0F605323765EF7FEC25 /* Pods_sensinggo_lib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6CE790A26123B497DD3A5FF /* Pods_sensinggo_lib.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17CABB4403A2434F8FD32164 /* Pods-sensinggo_lib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sensinggo_lib.debug.xcconfig"; path = "Target Support Files/Pods-sensinggo_lib/Pods-sensinggo_lib.debug.xcconfig"; sourceTree = "<group>"; };
+		1C87ED1C52E4A315510A83BF /* Pods-sensinggo_lib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sensinggo_lib.release.xcconfig"; path = "Target Support Files/Pods-sensinggo_lib/Pods-sensinggo_lib.release.xcconfig"; sourceTree = "<group>"; };
+		895DA21825A1635D004C5FF4 /* FileMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileMaker.swift; sourceTree = "<group>"; };
+		895DA21B25A16388004C5FF4 /* SendData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendData.swift; sourceTree = "<group>"; };
 		89AA9D6225723D690080DB19 /* sensinggo_lib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = sensinggo_lib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		89AA9D6525723D690080DB19 /* sensinggo_lib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sensinggo_lib.h; sourceTree = "<group>"; };
 		89AA9D6625723D690080DB19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89AA9D7D25723E8B0080DB19 /* t.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = t.swift; sourceTree = "<group>"; };
 		89AA9D84257240550080DB19 /* SensorInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorInfo.swift; sourceTree = "<group>"; };
 		89AA9D8B25724CB60080DB19 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		89AA9D9125727A7D0080DB19 /* PhoneInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneInfo.swift; sourceTree = "<group>"; };
+		89AA9D9425727AFA0080DB19 /* NetworkState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkState.swift; sourceTree = "<group>"; };
+		89AA9D972572801B0080DB19 /* CellularInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellularInfo.swift; sourceTree = "<group>"; };
+		89AA9D9A2572811F0080DB19 /* WiFiInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiFiInfo.swift; sourceTree = "<group>"; };
+		F6CE790A26123B497DD3A5FF /* Pods_sensinggo_lib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sensinggo_lib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +43,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE2CB0F605323765EF7FEC25 /* Pods_sensinggo_lib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5AD19975183F66B96A24EF43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6CE790A26123B497DD3A5FF /* Pods_sensinggo_lib.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		89AA9D5825723D690080DB19 = {
 			isa = PBXGroup;
 			children = (
 				89AA9D6425723D690080DB19 /* sensinggo_lib */,
 				89AA9D6325723D690080DB19 /* Products */,
+				D3B5E36DBE578173BC28F96C /* Pods */,
+				5AD19975183F66B96A24EF43 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,6 +95,10 @@
 			children = (
 				89AA9D84257240550080DB19 /* SensorInfo.swift */,
 				89AA9D8B25724CB60080DB19 /* Location.swift */,
+				89AA9D9125727A7D0080DB19 /* PhoneInfo.swift */,
+				89AA9D9425727AFA0080DB19 /* NetworkState.swift */,
+				89AA9D972572801B0080DB19 /* CellularInfo.swift */,
+				89AA9D9A2572811F0080DB19 /* WiFiInfo.swift */,
 			);
 			path = Measurement;
 			sourceTree = "<group>";
@@ -75,6 +106,7 @@
 		89AA9D8125723FE00080DB19 /* FileSender */ = {
 			isa = PBXGroup;
 			children = (
+				895DA21B25A16388004C5FF4 /* SendData.swift */,
 			);
 			path = FileSender;
 			sourceTree = "<group>";
@@ -82,6 +114,7 @@
 		89AA9D8225723FFB0080DB19 /* FileMaker */ = {
 			isa = PBXGroup;
 			children = (
+				895DA21825A1635D004C5FF4 /* FileMaker.swift */,
 			);
 			path = FileMaker;
 			sourceTree = "<group>";
@@ -91,6 +124,15 @@
 			children = (
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		D3B5E36DBE578173BC28F96C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17CABB4403A2434F8FD32164 /* Pods-sensinggo_lib.debug.xcconfig */,
+				1C87ED1C52E4A315510A83BF /* Pods-sensinggo_lib.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -111,6 +153,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89AA9D6A25723D690080DB19 /* Build configuration list for PBXNativeTarget "sensinggo_lib" */;
 			buildPhases = (
+				27C4C688583AD89270D2C7D1 /* [CP] Check Pods Manifest.lock */,
 				89AA9D5D25723D690080DB19 /* Headers */,
 				89AA9D5E25723D690080DB19 /* Sources */,
 				89AA9D5F25723D690080DB19 /* Frameworks */,
@@ -167,14 +210,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		27C4C688583AD89270D2C7D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sensinggo_lib-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		89AA9D5E25723D690080DB19 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89AA9D9525727AFA0080DB19 /* NetworkState.swift in Sources */,
 				89AA9D7E25723E8B0080DB19 /* t.swift in Sources */,
 				89AA9D8C25724CB60080DB19 /* Location.swift in Sources */,
+				89AA9D9225727A7D0080DB19 /* PhoneInfo.swift in Sources */,
+				89AA9D9B2572811F0080DB19 /* WiFiInfo.swift in Sources */,
+				895DA21925A1635D004C5FF4 /* FileMaker.swift in Sources */,
+				89AA9D982572801B0080DB19 /* CellularInfo.swift in Sources */,
 				89AA9D85257240550080DB19 /* SensorInfo.swift in Sources */,
+				895DA21C25A16388004C5FF4 /* SendData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +379,7 @@
 		};
 		89AA9D6B25723D690080DB19 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17CABB4403A2434F8FD32164 /* Pods-sensinggo_lib.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -315,7 +390,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = sensinggo_lib/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,6 +407,7 @@
 		};
 		89AA9D6C25723D690080DB19 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C87ED1C52E4A315510A83BF /* Pods-sensinggo_lib.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -342,7 +418,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = sensinggo_lib/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

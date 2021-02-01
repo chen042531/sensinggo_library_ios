@@ -7,6 +7,7 @@
 
 import Foundation
 import CoreMotion
+import NMSSH
 public class sensorInfo{
     var manager = CMMotionManager()
     var altimeter = CMAltimeter()
@@ -14,7 +15,7 @@ public class sensorInfo{
         
     }
     public func getAccelerometerValues (values: ((Double, Double, Double) -> ())? ){
-        print("rrrrrrrrrr")
+//        print("rrrrrrrrrr")
             var valX: Double!
             var valY: Double!
             var valZ: Double!
@@ -27,7 +28,7 @@ public class sensorInfo{
                     valX = data!.acceleration.x
                     valY = data!.acceleration.y
                     valZ = data!.acceleration.z
-    //                print(valX)
+                    print(valX)
                     if values != nil{
                         values!( valX,valY, valZ)
                     }
@@ -110,6 +111,18 @@ public class sensorInfo{
             } else {
                 print("The Gyro is not available")
             }
+    }
+    public func stopAcc(){
+        manager.stopAccelerometerUpdates()
+    }
+    public func stopMag(){
+        manager.startMagnetometerUpdates()
+    }
+    public func stopAlt(){
+        altimeter.stopRelativeAltitudeUpdates()
+    }
+    public func stopGyro(){
+        manager.stopGyroUpdates()
     }
   
 }

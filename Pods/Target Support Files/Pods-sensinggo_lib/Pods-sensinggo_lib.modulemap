@@ -1,0 +1,6 @@
+framework module Pods_sensinggo_lib {
+  umbrella header "Pods-sensinggo_lib-umbrella.h"
+
+  export *
+  module * { export * }
+}
