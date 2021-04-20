@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89AA9D4425723D510080DB19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AA9D4325723D510080DB19 /* AppDelegate.swift */; };
+		89AA9D4625723D510080DB19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AA9D4525723D510080DB19 /* SceneDelegate.swift */; };
+		89AA9D4825723D510080DB19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AA9D4725723D510080DB19 /* ViewController.swift */; };
+		89AA9D4B25723D510080DB19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89AA9D4925723D510080DB19 /* Main.storyboard */; };
+		89AA9D4D25723D520080DB19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89AA9D4C25723D520080DB19 /* Assets.xcassets */; };
+		89AA9D5025723D520080DB19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89AA9D4E25723D520080DB19 /* LaunchScreen.storyboard */; };
+		89AAA107257886C90080DB19 /* sensinggo_lib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89AAA106257886C90080DB19 /* sensinggo_lib.framework */; };
+		89AAA108257886C90080DB19 /* sensinggo_lib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 89AAA106257886C90080DB19 /* sensinggo_lib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89AAA11325788B390080DB19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89AAA10E25788B390080DB19 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6EEC77F51858349E93EF74E23C115C64;
+			remoteInfo = NMSSH;
+		};
+		89AAA11525788B390080DB19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89AAA10E25788B390080DB19 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BB760A6D3B9FF5EAC51F85B018899F65;
+			remoteInfo = "Pods-sensinggo_lib";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		89AA9D7A25723DF80080DB19 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				89AAA108257886C90080DB19 /* sensinggo_lib.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		20A72279C1D58E2F76132D7F /* Pods-sensing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sensing.release.xcconfig"; path = "Target Support Files/Pods-sensing/Pods-sensing.release.xcconfig"; sourceTree = "<group>"; };
+		89AA9D4025723D510080DB19 /* sensing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sensing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89AA9D4325723D510080DB19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		89AA9D4525723D510080DB19 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		89AA9D4725723D510080DB19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		89AA9D4A25723D510080DB19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89AA9D4C25723D520080DB19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89AA9D4F25723D520080DB19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89AA9D5125723D520080DB19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89AAA106257886C90080DB19 /* sensinggo_lib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = sensinggo_lib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89AAA10925788A520080DB19 /* NMSSH.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NMSSH.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89AAA10E25788B390080DB19 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = sensinggo_lib/Pods/Pods.xcodeproj; sourceTree = SOURCE_ROOT; };
+		AF3CABBDB79412BBBAE00DA0 /* Pods-sensing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sensing.debug.xcconfig"; path = "Target Support Files/Pods-sensing/Pods-sensing.debug.xcconfig"; sourceTree = "<group>"; };
+		F2872815476B5CC809A902C0 /* Pods_sensing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sensing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89AA9D3D25723D510080DB19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89AAA107257886C90080DB19 /* sensinggo_lib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B5D6BC035C932F96A3A1E33 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89AAA10E25788B390080DB19 /* Pods.xcodeproj */,
+				AF3CABBDB79412BBBAE00DA0 /* Pods-sensing.debug.xcconfig */,
+				20A72279C1D58E2F76132D7F /* Pods-sensing.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		89AA9D3725723D510080DB19 = {
+			isa = PBXGroup;
+			children = (
+				89AA9D4225723D510080DB19 /* sensing */,
+				89AA9D4125723D510080DB19 /* Products */,
+				89AA9D7725723DF80080DB19 /* Frameworks */,
+				1B5D6BC035C932F96A3A1E33 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		89AA9D4125723D510080DB19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89AA9D4025723D510080DB19 /* sensing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89AA9D4225723D510080DB19 /* sensing */ = {
+			isa = PBXGroup;
+			children = (
+				89AA9D4325723D510080DB19 /* AppDelegate.swift */,
+				89AA9D4525723D510080DB19 /* SceneDelegate.swift */,
+				89AA9D4725723D510080DB19 /* ViewController.swift */,
+				89AA9D4925723D510080DB19 /* Main.storyboard */,
+				89AA9D4C25723D520080DB19 /* Assets.xcassets */,
+				89AA9D4E25723D520080DB19 /* LaunchScreen.storyboard */,
+				89AA9D5125723D520080DB19 /* Info.plist */,
+			);
+			path = sensing;
+			sourceTree = "<group>";
+		};
+		89AA9D7725723DF80080DB19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89AAA10925788A520080DB19 /* NMSSH.framework */,
+				89AAA106257886C90080DB19 /* sensinggo_lib.framework */,
+				F2872815476B5CC809A902C0 /* Pods_sensing.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89AAA10F25788B390080DB19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89AAA11425788B390080DB19 /* NMSSH.framework */,
+				89AAA11625788B390080DB19 /* Pods_sensinggo_lib.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89AA9D3F25723D510080DB19 /* sensing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89AA9D5425723D520080DB19 /* Build configuration list for PBXNativeTarget "sensing" */;
+			buildPhases = (
+				C5F19FB60CC8F2458315ED82 /* [CP] Check Pods Manifest.lock */,
+				89AA9D3C25723D510080DB19 /* Sources */,
+				89AA9D3D25723D510080DB19 /* Frameworks */,
+				89AA9D3E25723D510080DB19 /* Resources */,
+				89AA9D7A25723DF80080DB19 /* Embed Frameworks */,
+				13464C8DCE8375216F78453D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sensing;
+			productName = sensing;
+			productReference = 89AA9D4025723D510080DB19 /* sensing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89AA9D3825723D510080DB19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					89AA9D3F25723D510080DB19 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 89AA9D3B25723D510080DB19 /* Build configuration list for PBXProject "sensing" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89AA9D3725723D510080DB19;
+			productRefGroup = 89AA9D4125723D510080DB19 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 89AAA10F25788B390080DB19 /* Products */;
+					ProjectRef = 89AAA10E25788B390080DB19 /* Pods.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				89AA9D3F25723D510080DB19 /* sensing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		89AAA11425788B390080DB19 /* NMSSH.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = NMSSH.framework;
+			remoteRef = 89AAA11325788B390080DB19 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		89AAA11625788B390080DB19 /* Pods_sensinggo_lib.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_sensinggo_lib.framework;
+			remoteRef = 89AAA11525788B390080DB19 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89AA9D3E25723D510080DB19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89AA9D5025723D520080DB19 /* LaunchScreen.storyboard in Resources */,
+				89AA9D4D25723D520080DB19 /* Assets.xcassets in Resources */,
+				89AA9D4B25723D510080DB19 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13464C8DCE8375216F78453D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sensing/Pods-sensing-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sensing/Pods-sensing-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sensing/Pods-sensing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5F19FB60CC8F2458315ED82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sensing-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89AA9D3C25723D510080DB19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89AA9D4825723D510080DB19 /* ViewController.swift in Sources */,
+				89AA9D4425723D510080DB19 /* AppDelegate.swift in Sources */,
+				89AA9D4625723D510080DB19 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		89AA9D4925723D510080DB19 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89AA9D4A25723D510080DB19 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		89AA9D4E25723D520080DB19 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89AA9D4F25723D520080DB19 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89AA9D5225723D520080DB19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		89AA9D5325723D520080DB19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89AA9D5525723D520080DB19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF3CABBDB79412BBBAE00DA0 /* Pods-sensing.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 6K979SZZGV;
+				INFOPLIST_FILE = sensing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ycchen.sensing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89AA9D5625723D520080DB19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20A72279C1D58E2F76132D7F /* Pods-sensing.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 6K979SZZGV;
+				INFOPLIST_FILE = sensing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ycchen.sensing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89AA9D3B25723D510080DB19 /* Build configuration list for PBXProject "sensing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89AA9D5225723D520080DB19 /* Debug */,
+				89AA9D5325723D520080DB19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89AA9D5425723D520080DB19 /* Build configuration list for PBXNativeTarget "sensing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89AA9D5525723D520080DB19 /* Debug */,
+				89AA9D5625723D520080DB19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89AA9D3825723D510080DB19 /* Project object */;
+}
